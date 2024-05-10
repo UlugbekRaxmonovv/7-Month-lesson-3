@@ -30,6 +30,12 @@
 }
 .hammasi{
     display: flex;
-    gap:42px ;
+    gap:75px ;
 }
-
+.column{
+    transform: scale(0.8);
+    transition: all .3s linear;
+}
+.column:hover{
+    transform: scale(1);
+}

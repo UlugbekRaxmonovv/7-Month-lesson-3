@@ -26,7 +26,7 @@ data?.map(user => (
             <p>{user.age} years old</p>
            <div className="hammasi">
            <button onClick={() =>dispatch(removFromUser(user))}>Remove</button>
-            <button onClick={() =>setModul(true) || setConfitee(!confitte)}>Modul Box</button>
+            <button onClick={() =>setModul(true) || setConfitee(!confitte)}>Modul</button>
             {
               confitte ?
               <Confetti/>
@@ -68,8 +68,7 @@ data?.map(user => (
             <p>{user.age} years old</p>
            <div className="hammasi">
           <NavLink to={'/'}> <button>Remove</button></NavLink>
-            <button onClick={() =>setModul(false) || setConfitee(!confitte)}>Delet</button>
-          
+          <button onClick={() =>setModul(false) || setConfitee(!confitte)}>Delet</button>             
            </div>
         </div>
   </div>
