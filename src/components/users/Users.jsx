@@ -44,15 +44,16 @@ data?.map(user => (
      onRequestClose={() =>setModul(false)}
      style={{
       overlay:{
-        background:'rgba(255,255,255',
+        background:'greenyellow',
       },
       content:{
      width: '320px',
+     height:"480px",
      padding: '20px',
      boxShadow: '0 0 8px #0002, 15px 15px 15px #0001',
      lineHeight:" 1.6",
      borderRadius: "10px",
-     marginLeft: "40%",
+     marginLeft: "30%",
       }
       
      }}>
