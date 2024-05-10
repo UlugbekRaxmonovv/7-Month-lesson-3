@@ -28,3 +28,8 @@
 .users__card button:active{
     opacity: .7;
 }
+.hammasi{
+    display: flex;
+    gap:42px ;
+}
+
